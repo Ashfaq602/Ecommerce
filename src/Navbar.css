@@ -1,0 +1,181 @@
+/* styles.css (or your preferred file name) */
+.navbar-dark .navbar-nav .nav-link {
+    color: white; /* Set the desired text color for normal links */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffcc00; /* Set the desired text color for links on hover */
+  }
+  
+  /* Customize text color for specific elements with class */
+  .navbar-dark .navbar-brand {
+    color: #ffcc00; /* Set the desired text color for the navbar brand */
+  }
+  
+  /* Customize text color for the cart count */
+  .cart-count {
+    color: #ffcc00; /* Set the desired text color for the cart count */
+  }
+  /* Navbar Styles */
+.navbar {
+    height: 150px;
+    font-family: 'Your Desired Font', sans-serif;
+        margin: 0;
+        display: flex;
+        background: linear-gradient(to right, #87CEEB, #fff069, rgb(230, 100, 239));
+      ; /* Rainbow gradient */
+  }
+  
+  .navbar-brand img {
+    width:500px; /* Adjust the logo size as needed */
+    height:auto;
+  }
+  
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #fff; /* Color of the navbar toggler icon */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important; /* Text color for navbar links */
+  }
+  
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block; /* Show dropdown menu on hover */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffcc00 !important; /* Text color on hover */
+  }
+  
+  /* Optional: Styling for the search bar */
+  .form-control {
+    margin-right: 10px; /* Adjust the spacing as needed */
+  }
+  
+  /* Optional: Styling for the cart icon */
+  .navbar-nav .nav-link img {
+    width: 25px; /* Adjust the cart icon size as needed */
+    height: auto;
+    margin-right: 5px; /* Adjust the spacing as needed */
+  }
+  
+  .cart-count {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  
+  /* Optional: Styling for the profile dropdown */
+  .dropdown-menu {
+    background-color: #333;
+    border: none;
+  }
+  
+  .dropdown-item {
+    color: #fff !important;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #555;
+  }
+/* Navbar Container */
+.navbar {
+    background-color: #4CAF50; /* Remix the background color to a green shade */
+    padding: 15px 20px; /* Adjusted padding for a slightly larger navbar */
+    border-bottom: 2px solid #2E7D32; /* Remix the border color to a darker green */
+  }
+  
+  /* Navbar Brand */
+  .navbar-brand img {
+    max-width: 170px; /* Slightly increased the max-width of the logo */
+  }
+  
+  /* Navbar Links */
+  .navbar-nav .nav-link {
+    color: #fff !important; /* Text color of the links */
+    margin: 0 12px; /* Adjusted spacing between links for a bit more breathing room */
+    font-weight: normal; /* Set font weight back to normal */
+  }
+  
+  /* Navbar Links - Hover State */
+  .navbar-nav .nav-link:hover {
+    color: #FFEB3B !important; /* Remix the text color on hover to yellow */
+  }
+  
+  /* Navbar Dropdown */
+  .navbar-nav .dropdown-menu {
+    background-color: #010b01; /* Remix the background color of the dropdown menu to match the navbar */
+  }
+  
+  /* Navbar Dropdown Links */
+  .navbar-nav .dropdown-item {
+    color: #fff !important; /* Text color of the dropdown items */
+  }
+  
+  /* Navbar Dropdown Links - Hover State */
+  .navbar-nav .dropdown-item:hover {
+    background-color: rgb(237, 49, 193); /* Remix the background color on hover to a darker green */
+  }
+  
+  /* Navbar Search Form */
+  .navbar-form {
+    margin-right: 30px; /* Slightly increased margin for more spacing */
+  }
+  
+  /* Navbar Cart Icon */
+  .navbar-nav .nav-link img {
+    max-width: 30px; /* Slightly increased the max-width of the cart icon */
+    margin-right: 8px; /* Adjusted margin for more spacing */
+  }
+  
+  /* Cart Count Badge */
+  .cart-count {
+    background-color: #FFEB3B; /* Remix the background color of the cart count badge to yellow */
+    color: #333; /* Text color of the cart count badge */
+    padding: 4px 8px; /* Adjusted padding for a bit more emphasis */
+    border-radius: 50%; /* Make it circular */
+    font-size: 14px; /* Slightly increased font size */
+  }
+  
+  /* Responsive Navbar Toggler Icon */
+  .navbar-toggler-icon {
+    background-color: #e11515; /* Background color of the toggler icon */
+  }
+  
+  /* Optional: Remove the box shadow for a flat appearance */
+  .navbar {
+    box-shadow: none;
+  }
+
+  .a{
+    align-items:;
+  }
+  .form {
+height: 40px;
+width: 150px;
+  }
+  .vishnu{
+    display: flex;
+    list-style-type: none;
+
+  }
+  .vishnu li input{
+    width: 300px;
+  }
+  .vishnu li button{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+  }
+.hello{
+    height: 50px;
+    width: 50px;
+}
+.nav-item .nav-link img{
+    height: 40px;
+    width: 60px;
+}
+    

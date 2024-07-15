@@ -1,0 +1,117 @@
+.phone-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .phone-content {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .react-tel-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+  
+  #recaptcha {
+    margin-top: 10px;
+  }
+  
+  /* Style for OTP input */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for the entire login content */
+  .phone-content {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  /* Reset some default styles */
+body, h1, h2, h3, p, margin, padding {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+}
+
+.phone-signin {
+  background-image: url(tb.jpeg) ;
+  background-size: cover ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.phone-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style for the PhoneInput component */
+.react-tel-input {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Style for the Send OTP button */
+button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Style for the Recaptcha container */
+#recaptcha {
+  margin-top: 10px;
+}
+
+/* Style for the OTP input and Verify OTP button */
+TextField {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Style for the Verify OTP button */
+button {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Media query for responsive design (adjust as needed) */
+@media (max-width: 600px) {
+  .phone-content {
+    width: 80%;
+  }
+}
+h3 {
+  text-align: center;
+  font-size: 2em; /* Adjust the font size as needed */
+  font-family: 'Georgia', sans-serif; /* Replace 'Your Preferred Font' with the desired font family */
+  color: #333; /* Adjust the font color as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+  margin: 20px 0; /* Adjust the margin as needed */
+}
+
+  

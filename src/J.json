@@ -1,0 +1,301 @@
+var MensClothingData = {
+    "Topwear":[
+        {
+        id:1,
+        name:"Men's Shirt",
+        category:" Casual Shirts",
+        price:399,
+        color:"Red",
+        Brand:"Van Heusen",
+        Image:"https://www.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing_6601836.htm#query=Mens%20Shirt&position=1&from_view=search&track=ais&uuid=ce1ddc92-650f-48e6-96e6-bff6e0f2beaa",
+        size:"Medium"
+        },
+        {
+            id:2,
+            name:"Men's Shirt",
+            category:"Formal Shirts",
+            price:449,
+            color:"Blue",
+            Brand:"Allen Solly",
+            Image:"https://www.freepik.com/free-photo/portrait-happy-handsome-young-man-posing-studio-with-beautiful-curly-hairs_11228759.htm#query=Mens%20DenimShirt&position=1&from_view=search&track=ais&uuid=6e8370a1-becc-4d41-8420-98f3f9cfe4b7",
+            size:"Large"
+        },
+        {  id:3,
+           name:"Men's T-Shirts",
+           category:"T-Shirts",
+           price:289,
+           color:"Blue",
+           Brand:"H&M",
+           Image:"https://www.istockphoto.com/en/photo/young-smiling-handsome-man-in-casual-clothes-posing-isolated-on-blue-wall-background-gm1249420269-364128324?phrase=men%27s%20t%20shirt",
+           size: "Medium"
+
+        },
+        {
+            id:4,
+            name:"Men's T-Shirts",
+            category:"T-Shirts",
+            price:199,
+            color:"Black",
+            Brand:"US Polo",
+            Image:"https://media.istockphoto.com/id/1093999178/photo/young-handsome-man-isolated-on-gray-textured-wall-smiling-while-pointing-with-index-finger-to.jpg?s=612x612&w=0&k=20&c=aWWGm-GcKc-hL8dl1RUaO41JE-cKZdT9AF8QD7jDgwc=",
+            size:"Medium"
+
+        }
+
+
+    ],
+    "Bottomwear":[
+                  {
+                    id:1,
+                    name:"Men's Jeans",
+                    category:"Jeans",
+                    price:349,
+                    color:"Blue",
+                    Brand:"Flying Machine",
+                    Image:"https://img.freepik.com/premium-photo/man-wearing-blue-jeans-with-white-shirt-brown-shoes_81048-11310.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                    size:28
+                  },
+                  {
+                    id:2,
+                    name:"Men's Jeans",
+                    category:"Jeans",
+                    price:249,
+                    color:"Blue",
+                    Brand:"Spykar",
+                    Image:"https://img.freepik.com/free-photo/handsome-man-dancing_144627-3575.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                    size:30
+                  },
+                  {
+                    id:3,
+                    name:"Men's Troushers",
+                    category:"Casual Troushers",
+                    price:299,
+                    color:"Dark Blue",
+                    Brand:"Levi's",
+                    Image:"https://img.freepik.com/free-photo/young-handsome-hipster-man-trendy-style-outfit-denim-shirt-trousers-sunglasses-hat-isolated-jumping-cheerful-pointing-finger_285396-1517.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                    size:29
+                  },
+                  {
+                    id:4,
+                    name:"Men's Troushers",
+                    category:"Casual Troushers",
+                    price:369,
+                    color:"Black",
+                    Brand:"Peter England",
+                    Image:"https://img.freepik.com/free-photo/stylish-young-handsome-man-classy-outfit_1303-22501.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                    size:31
+                  }
+
+
+    ],
+    "Sleepwear":[
+        {
+        id:1,
+        name:"Men's Boxers",
+        category:"Boxers",
+        price:119,
+        color:"Blue",
+        Brand:"Zudio",
+        Image:"https://img.freepik.com/free-photo/man-white-shorts-summer-fashion-photoshoot-close-up_53876-104997.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+        size:75
+
+        },
+        {
+        id:2,
+        name:"Men's Boxers",
+        category:"Boxers",
+        price:139,
+        color:"Gray",
+        Brand:"Zudio",
+        Image:"https://img.freepik.com/free-photo/man-reading-interesting-book_23-2148873073.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+        size:85
+
+        },
+        {
+            id:3,
+            name:"Men's  Vests",
+            category:"Vests",
+            price:159,
+            color:"White",
+            Brand:"Vilan",
+            Image:"https://img.freepik.com/free-photo/fashion-portrait-handsome-young-man-white-shirt-looking-sideways-poses-wall-with-contrast-shadows_186202-9080.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+            size:M
+        },
+        {
+            id:4,
+            name:"Men's  Vests",
+            category:"Vests",
+            price:179,
+            color:"Black",
+            Brand:"Dollar",
+            Image:"https://img.freepik.com/free-photo/successful-muscled-young-man-black-tanktop_158538-10188.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+            size:S
+
+        }
+
+
+
+    ]
+
+}
+var WomensClothingData = {
+  "Indianwear":[
+      {
+      id:1,
+      name:"Women's Kurtas",
+      category:"Kurtas&Suits",
+      price:399,
+      color:"Blue",
+      Brand:"Kalini",
+      Image:"https://img.freepik.com/premium-photo/blushing-young-girl-landscape-wearing-floral-kurta-fashion-photoshoot_658768-175.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+      size:"3XL"
+      },
+      {
+          id:2,
+          name:"Women's Kurtas",
+          category:"Kurtas&Suits",
+          price:449,
+          color:"Gray",
+          Brand:"Sangria",
+          Image:"https://img.freepik.com/premium-photo/cute-young-girl-portrait-garden-wearing-des-dress-fashion-photoshoot_658768-286.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+          size:"Large"
+      },
+     
+
+  ],
+  "Westrenwear":[
+                {
+                  id:1,
+                  name:"Women's Westrenwear",
+                  category:"Tops",
+                  price:349,
+                  color:"Red",
+                  Brand:"Friskers",
+                  Image:"https://img.freepik.com/premium-photo/women-fashion-clothing-tops_953724-996.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                  size:"XS"
+                },
+                {
+                  id:2,
+                  name:"Women's Westrenwear",
+                  category:"Tops",
+                  price:249,
+                  color:"Blue",
+                  Brand:"Roadster",
+                  Image:"https://img.freepik.com/free-photo/attractive-lady-blouse-posing-while-standing-looking-optimistic-front-view_176474-90664.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                  size:"S"
+                },
+                {
+                  id:3,
+                  name:"Women's Westrenwear",
+                  category:"Dresses",
+                  price:459,
+                  color:"Yellow",
+                  Brand:"JC Collection",
+                  Image:"https://img.freepik.com/free-photo/young-woman-with-shopping-bags-beautiful-dress_1303-17549.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                  size:"M"
+
+                },
+                {
+                  id:4,
+                  name:"Women's Westrenwear",
+                  category:"Dresses",
+                  price:599,
+                  color:"Red",
+                  Brand:"Tokyo Talkies",
+                  Image:"https://img.freepik.com/free-photo/fashion-portrait-attractive-smiling-young-woman-red-dotted-dress-red-studio_285396-2344.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                  size:"S"
+
+                }
+
+                
+
+
+  ]
+  
+}
+var KidsClothingData = {
+  "BoysClothing":[
+      {
+      id:1,
+      name:"Boys Shirts",
+      category:"Shirts",
+      price:399,
+      color:"Blue",
+      Brand:"Patloons Junior",
+      Image:"https://img.freepik.com/free-photo/skater-boy-posing-with-skateboard_23-2147670748.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+      size:"15-16Y"
+      },
+      {
+          id:2,
+          name:"Boys Shirts",
+          category:"Shirts",
+          price:449,
+          color:"Black",
+          Brand:"Max Kids",
+          Image:"https://img.freepik.com/premium-photo/young-handsome-teenage-boy-with-blond-hair-outdoors_251136-49577.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+          size:"15-16Y"
+      },
+      {
+          id:3,
+          name:"Boys Jeans",
+          category:"Jeans",
+          price:349,
+          color:"Sea Blue",
+          Brand:"US Polo Assn.Kids",
+          Image:"https://images.pexels.com/photos/4473568/pexels-photo-4473568.jpeg?auto=compress&cs=tinysrgb&w=600",
+          size:"10-12Y"
+
+      }
+     
+
+  ],
+  "GirlsClothing":[
+                {
+                  id:1,
+                  name:"Girls's T-Shirts",
+                  category:"Shirts",
+                  price:349,
+                  color:"White",
+                  Brand:"H&M",
+                  Image:"https://images.pexels.com/photos/1188748/pexels-photo-1188748.jpeg?auto=compress&cs=tinysrgb&w=600",
+                  size:"15-16Y"
+                },
+                {
+                  id:2,
+                  name:"Girl's T-Shirts",
+                  category:"T-Shirts",
+                  price:549,
+                  color:"Red",
+                  Brand:"United colors of Benetton",
+                  Image:"https://images.pexels.com/photos/2553790/pexels-photo-2553790.jpeg?auto=compress&cs=tinysrgb&w=600",
+                  size:"12-15Y"
+                },
+                {
+                  id:3,
+                  name:"Girl's Partywear",
+                  category:"Partywear",
+                  price:459,
+                  color:"Pink",
+                  Brand:"Allen Solly",
+                  Image:"https://img.freepik.com/free-photo/portrait-fashionable-woman_329181-9171.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                  size:"15-16Y"
+
+                },
+                {
+                  id:4,
+                  name:"Girl's Partywear",
+                  category:"Partywear",
+                  price:649,
+                  color:"Gold",
+                  Brand:"Bonjour",
+                  Image:"https://img.freepik.com/premium-photo/cute-girl-full-growth-shiny-party-dress-posing-white-wall_88135-20879.jpg?size=626&ext=jpg&ga=GA1.1.1449837664.1701525784&semt=ais",
+                  size:"12-14Y"
+
+                }
+
+                
+
+
+  ]
+  
+}
